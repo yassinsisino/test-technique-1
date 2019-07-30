@@ -1,0 +1,15 @@
+{
+  "exclude": [
+      "node_modules",
+      "dist"
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "images/*": ["assets/images/*"]
+    }
+  },
+  "include": [
+      "src/**/*"
+  ]
+}

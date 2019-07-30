@@ -1,0 +1,69 @@
+.Cart {
+    background-color: rgba(235,235,235);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty {
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+.Item {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin: 10px auto;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Aside {
+    height: 50px;
+}
+
+.Mini {
+    border-radius: 10px 0px 0px 10px;
+    border-top-right-radius: 40px 150px;
+    border-bottom-right-radius: 40px 150px;
+}
+
+.AmountWrapper {
+    width: 80%;
+}
+
+.Amount {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2px;
+    width: 70%;
+    border-radius: 5px;
+    background: rgb(101, 214, 64);
+}
+
+.Button {
+    border: none;
+    cursor: pointer;
+    font-size: 0.6em;
+    color: white;
+    background: rgb(202, 60, 60);
+    border-radius: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Checkout {
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(66, 184, 221);
+}

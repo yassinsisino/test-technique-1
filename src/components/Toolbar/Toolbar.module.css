@@ -1,0 +1,15 @@
+.Toolbar {
+    background-color: rgba(146, 146, 146);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.Account, .Logo {
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.Layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Content {
+    display: flex;
+    flex: 1;
+    margin: 0 5%;
+    background-color: rgba(212,212,212)
+  }
+  
+  @media screen and (max-width: 900px) {
+    .Content {
+      margin: 0;
+    }
+  }
